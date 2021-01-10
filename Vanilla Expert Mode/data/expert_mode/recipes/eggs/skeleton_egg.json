@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "BbB",
+        "BeB",
+        "BnB"
+    ],
+    "key": {
+        "e": {
+            "item": "minecraft:egg"
+        },
+        "n": {
+            "item": "minecraft:nether_star"
+        },
+        "b": {
+            "item": "minecraft:bow",
+            "require": {
+                "Enchantments": [{
+                    "id": "minecraft:infinity",
+                    "lvl": 1
+                }]
+            }
+        },
+        "B": {
+            "item": "minecraft:bone"
+        }
+    },
+    "result": {
+        "item": "minecraft:skeleton_spawn_egg",
+        "count": 1
+    }
+}

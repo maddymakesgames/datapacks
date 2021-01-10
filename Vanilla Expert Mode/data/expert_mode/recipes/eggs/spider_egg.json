@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "wnw",
+        "ses",
+        "cfc"
+    ],
+    "key": {
+        "e": {
+            "item": "minecraft:egg"
+        },
+        "n": {
+            "item": "minecraft:nether_star"
+        },
+        "w": {
+            "item": "minecraft:white_wool"
+        },
+        "c": {
+            "item": "minecraft:cobweb"
+        },
+        "s": {
+            "item": "minecraft:spider_eye"
+        },
+        "f": {
+            "item": "minecraft:fermented_spider_eye"
+        }
+    },
+    "result": {
+        "item": "minecraft:spider_spawn_egg",
+        "count": 1
+    }
+}

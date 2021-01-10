@@ -1,0 +1,35 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "0sc",
+        "wgw",
+        "nsS"
+    ],
+    "key": {
+        "0": {
+            "item": "minecraft:prismarine_bricks"
+        },
+        "s": {
+            "item": "minecraft:sponge"
+        },
+        "w": {
+            "item": "minecraft:wet_sponge"
+        },
+        "n": {
+            "item": "minecraft:nether_star"
+        },
+        "g": {
+            "item": "minecraft:guardian_spawn_egg"
+        },
+        "S": {
+            "item": "minecraft:sea_lantern"
+        },
+        "c": {
+            "item": "minecraft:conduit"
+        }
+    },
+    "result": {
+        "item": "minecraft:elder_guardian_spawn_egg",
+        "count": 1
+    }
+}

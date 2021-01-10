@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "rir",
+        "rer",
+        "rnr"
+    ],
+    "key": {
+        "r": {
+            "item": "minecraft:rotten_flesh"
+        },
+        "e": {
+            "item": "minecraft:egg"
+        },
+        "n": {
+            "item": "minecraft:nether_star"
+        },
+        "i": {
+            "item": "minecraft:iron_block"
+        }
+    },
+    "result": {
+        "item": "minecraft:zombie_spawn_egg",
+        "count": 1
+    }
+}

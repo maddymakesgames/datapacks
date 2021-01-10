@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "ini",
+        "iei",
+        "iii"
+    ],
+    "key": {
+        "i": {
+            "item": "minecraft:ink_sac"
+        },
+        "e": {
+            "item": "minecraft:egg"
+        },
+        "n": {
+            "item": "minecraft:nether_star"
+        }
+    },
+    "result": {
+        "item": "minecraft:squid_spawn_egg",
+        "count": 1
+    }
+}

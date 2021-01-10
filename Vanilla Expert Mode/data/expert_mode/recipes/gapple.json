@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "GnG",
+        "rar",
+        "GrG"
+    ],
+    "key": {
+        "r": {
+            "potion": "minecraft:regeneration"
+        },
+        "n": {
+            "item": "minecraft:nether_star"
+        },
+        "G": {
+            "item": "minecraft:gold_block"
+        },
+        "a": {
+            "item": "minecraft:apple"
+        }
+    },
+    "result": {
+        "item": "minecraft:enchanted_golden_apple",
+        "count": 1
+    }
+}

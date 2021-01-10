@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "cnc",
+        "CeC",
+        "cCc"
+    ],
+    "key": {
+        "c": {
+            "item": "minecraft:cod"
+        },
+        "C": {
+            "item": "minecraft:cooked_cod"
+        },
+        "e": {
+            "item": "minecraft:egg"
+        },
+        "n": {
+            "item": "minecraft:nether_star"
+        }
+    },
+    "result": {
+        "item": "minecraft:cod_spawn_egg",
+        "count": 1
+    }
+}

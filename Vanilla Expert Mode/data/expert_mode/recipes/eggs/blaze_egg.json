@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "bnb",
+        "pep",
+        "bfb"
+    ],
+    "key": {
+        "b": {
+            "item": "minecraft:blaze_rod"
+        },
+        "n": {
+            "item": "minecraft:nether_star"
+        },
+        "e": {
+            "item": "minecraft:egg"
+        },
+        "f": {
+            "item": "minecraft:fire_charge"
+        },
+        "p": {
+            "potion": "minecraft:fire_resistance"
+        }
+    },
+    "result": {
+        "item": "minecraft:blaze_spawn_egg",
+        "count": 1
+    }
+}

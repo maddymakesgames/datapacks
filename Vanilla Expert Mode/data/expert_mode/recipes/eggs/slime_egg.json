@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "sns",
+        "ses",
+        "sss"
+    ],
+    "key": {
+        "s": {
+            "item": "minecraft:slime_block"
+        },
+        "n": {
+            "item": "minecraft:nether_star"
+        },
+        "e": {
+            "item": "minecraft:egg"
+        }
+    },
+    "result": {
+        "item": "minecraft:slime_spawn_egg",
+        "count": 1
+    }
+}

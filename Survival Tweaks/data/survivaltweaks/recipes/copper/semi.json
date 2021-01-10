@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "ccc",
+        "cwc",
+        "ccc"
+    ],
+    "key": {
+        "c": {
+            "item": "minecraft:lightly_weathered_copper_block"
+        },
+        "w": {
+            "item": "minecraft:water_bucket",
+            "remainder": {
+                "item": "minecraft:bucket"
+            }
+        }
+    },
+    "result": {
+        "item": "minecraft:semi_weathered_copper_block",
+        "count": 8
+    }
+}

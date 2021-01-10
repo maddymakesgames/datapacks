@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "gng",
+        "tet",
+        "gfg"
+    ],
+    "key": {
+        "g": {
+            "item": "minecraft:gunpowder"
+        },
+        "n": {
+            "item": "minecraft:nether_star"
+        },
+        "f": {
+            "item": "minecraft:firework_rocket"
+        },
+        "t": {
+            "item": "minecraft:tnt"
+        },
+        "e": {
+            "item": "minecraft:egg"
+        }
+    },
+    "result": {
+        "item": "minecraft:creeper_spawn_egg",
+        "count": 1
+    }
+}

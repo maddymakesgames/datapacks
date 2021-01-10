@@ -1,0 +1,38 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "ene",
+        "gzs",
+        "ctp"
+    ],
+    "key": {
+        "e": {
+            "item": "minecraft:emerald_block"
+        },
+        "n": {
+            "item": "minecraft:nether_star"
+        },
+        "g": {
+            "item": "minecraft:golden_apple"
+        },
+        "z": {
+            "item": "minecraft:zombie_spawn_egg"
+        },
+        "s": {
+            "potion": "minecraft:weakness"
+        },
+        "c": {
+            "item": "minecraft:golden_carrot"
+        },
+        "p": {
+            "item": "minecraft:poisonous_potato"
+        },
+        "t": {
+            "item": "minecraft:totem_of_undying"
+        }
+    },
+    "result": {
+        "item": "minecraft:villager_spawn_egg",
+        "count": 1
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "gNg",
+        "gbg",
+        "ono"
+    ],
+    "key": {
+        "b": {
+            "item": "minecraft:beacon"
+        },
+        "g": {
+            "item": "minecraft:glass"
+        },
+        "n": {
+            "item": "minecraft:netherite_ingot"
+        },
+        "N": {
+            "item": "minecraft:nether_star"
+        },
+        "o": {
+            "item": "minecraft:obsidian"
+        }
+    },
+    "result": {
+        "item": "minecraft:beacon",
+        "count": 4
+    }
+}

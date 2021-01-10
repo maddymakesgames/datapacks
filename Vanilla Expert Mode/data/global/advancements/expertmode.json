@@ -1,0 +1,18 @@
+{
+    "display": {
+        "title": "Vanilla Expert Mode",
+        "description": "An expert mode pack made for (pretty much) vanilla",
+        "icon": {
+            "item": "minecraft:player_head",
+            "nbt": "{SkullOwner: 'maddymakesgames'}"
+        },
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "global:root",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

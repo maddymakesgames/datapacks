@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "ded",
+        "e0e",
+        "ono"
+    ],
+    "key": {
+        "0": {
+            "item": "minecraft:dragon_egg"
+        },
+        "d": {
+            "item": "minecraft:dragon_breath"
+        },
+        "e": {
+            "item": "minecraft:end_crystal"
+        },
+        "n": {
+            "item": "minecraft:nether_star"
+        },
+        "o": {
+            "item": "minecraft:obsidian"
+        }
+    },
+    "result": {
+        "item": "minecraft:dragon_egg",
+        "count": 4
+    }
+}
