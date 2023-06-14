@@ -2,7 +2,7 @@
 	"parent": "minecraft:recipes/root",
 	"rewards": {
 		"recipes": [
-			"survivaltweaks:copper/semi.json"
+			"survivaltweaks:copper/oxidized_cut.json"
 		]
 	},
 	"criteria": {
@@ -10,15 +10,15 @@
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [
-					{"item":"minecraft:lightly_weathered_copper_block"},
-					{"item":"minecraft:water_bucket"}
+					{"item":"minecraft:weathered_cut_copper"},
+					{"item":"minecraft:water_bucket","remainder":{"item":"minecraft:bucket"}}
 				]
 			}
 		},
 		"has_the_recipe": {
 			"trigger": "minecraft:recipe_unlocked",
 			"conditions": {
-				"recipe": "survivaltweaks:copper/semi.json"
+				"recipe": "survivaltweaks:copper/oxidized_cut.json"
 			}
 		}
 	},

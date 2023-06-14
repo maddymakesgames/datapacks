@@ -1,15 +1,16 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "X",
-    "X"
-  ],
-  "key": {
-    "X": {
-      "item":"minecraft:cut_copper_slab"
+    "type": "minecraft:crafting_shaped",
+    "group": "cut_copper",
+    "pattern": [
+        "X",
+        "X"
+    ],
+    "key": {
+        "X": {
+            "item": "minecraft:cut_copper_slab"
+        }
+    },
+    "result": {
+        "item": "minecraft:cut_copper"
     }
-  },
-  "result": {
-    "item":"minecraft:cut_copper"
-  }
 }

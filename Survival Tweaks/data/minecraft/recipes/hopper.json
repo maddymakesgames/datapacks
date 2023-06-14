@@ -1,1 +1,21 @@
-{}
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "hopper",
+    "pattern": [
+        "# #",
+        "#C#",
+        " # "
+    ],
+    "key": {
+        "C": {
+            "tag": "survivaltweaks:chest"
+        },
+        "#": {
+            "item": "minecraft:iron_ingot"
+        }
+    },
+    "result": {
+        "item": "minecraft:hopper",
+        "count": 1
+    }
+}

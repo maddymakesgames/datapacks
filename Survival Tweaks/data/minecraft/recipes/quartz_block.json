@@ -1,6 +1,6 @@
 {
     "type": "crafting_shaped",
-    "group":"quartz_block",
+    "group": "quartz_block",
     "pattern": [
         "##",
         "##"

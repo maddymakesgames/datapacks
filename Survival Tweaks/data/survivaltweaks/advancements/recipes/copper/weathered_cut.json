@@ -10,8 +10,8 @@
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [
-					{"item":"minecraft:semi_weathered_cut_copper"},
-					{"item":"minecraft:water_bucket"}
+					{"item":"minecraft:exposed_cut_copper"},
+					{"item":"minecraft:water_bucket","remainder":{"item":"minecraft:bucket"}}
 				]
 			}
 		},

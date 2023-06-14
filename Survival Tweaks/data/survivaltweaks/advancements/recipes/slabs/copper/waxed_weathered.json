@@ -2,7 +2,7 @@
 	"parent": "minecraft:recipes/root",
 	"rewards": {
 		"recipes": [
-			"survivaltweaks:slabs/copper/waxed_semi.json"
+			"survivaltweaks:slabs/copper/waxed_weathered.json"
 		]
 	},
 	"criteria": {
@@ -10,14 +10,14 @@
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [
-					{"item":"minecraft:waxed_semi_weathered_cut_copper_slab"}
+					{"item":"minecraft:waxed_weathered_cut_copper_slab"}
 				]
 			}
 		},
 		"has_the_recipe": {
 			"trigger": "minecraft:recipe_unlocked",
 			"conditions": {
-				"recipe": "survivaltweaks:slabs/copper/waxed_semi.json"
+				"recipe": "survivaltweaks:slabs/copper/waxed_weathered.json"
 			}
 		}
 	},

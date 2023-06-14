@@ -1,16 +1,16 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "group":"stone_bricks",
-  "pattern": [
-    "X",
-    "X"
-  ],
-  "key": {
-    "X": {
-      "item":"minecraft:stone_brick_slab"
+    "type": "minecraft:crafting_shaped",
+    "group": "stone_bricks",
+    "pattern": [
+        "X",
+        "X"
+    ],
+    "key": {
+        "X": {
+            "item": "minecraft:stone_brick_slab"
+        }
+    },
+    "result": {
+        "item": "minecraft:stone_bricks"
     }
-  },
-  "result": {
-    "item":"minecraft:stone_bricks"
-  }
 }

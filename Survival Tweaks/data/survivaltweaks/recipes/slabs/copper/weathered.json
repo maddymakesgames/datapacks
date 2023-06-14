@@ -1,15 +1,16 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "X",
-    "X"
-  ],
-  "key": {
-    "X": {
-      "item":"minecraft:weathered_cut_copper_slab"
+    "type": "minecraft:crafting_shaped",
+    "group": "weathered_cut_copper",
+    "pattern": [
+        "X",
+        "X"
+    ],
+    "key": {
+        "X": {
+            "item": "minecraft:weathered_cut_copper_slab"
+        }
+    },
+    "result": {
+        "item": "minecraft:weathered_cut_copper"
     }
-  },
-  "result": {
-    "item":"minecraft:weathered_cut_copper"
-  }
 }

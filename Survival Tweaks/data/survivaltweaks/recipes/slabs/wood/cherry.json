@@ -1,0 +1,16 @@
+{
+    "type": "crafting_shaped",
+    "group": "planks",
+    "pattern": [
+        "c",
+        "c"
+    ],
+    "key": {
+        "c": {
+            "item": "cherry_slab"
+        }
+    },
+    "result": {
+        "item": "minecraft:cherry_planks"
+    }
+}

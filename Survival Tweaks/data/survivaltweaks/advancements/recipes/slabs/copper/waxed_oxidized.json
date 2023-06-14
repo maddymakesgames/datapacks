@@ -2,7 +2,7 @@
 	"parent": "minecraft:recipes/root",
 	"rewards": {
 		"recipes": [
-			"survivaltweaks:copper/lightly.json"
+			"survivaltweaks:slabs/copper/waxed_oxidized.json"
 		]
 	},
 	"criteria": {
@@ -10,15 +10,14 @@
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [
-					{"item":"minecraft:copper_block"},
-					{"item":"minecraft:water_bucket"}
+					
 				]
 			}
 		},
 		"has_the_recipe": {
 			"trigger": "minecraft:recipe_unlocked",
 			"conditions": {
-				"recipe": "survivaltweaks:copper/lightly.json"
+				"recipe": "survivaltweaks:slabs/copper/waxed_oxidized.json"
 			}
 		}
 	},

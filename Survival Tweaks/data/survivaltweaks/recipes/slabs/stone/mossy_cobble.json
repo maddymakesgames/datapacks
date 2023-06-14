@@ -1,5 +1,6 @@
 {
     "type": "minecraft:crafting_shaped",
+    "group": "mossy_cobblestone",
     "pattern": [
         "m",
         "m"

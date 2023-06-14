@@ -7,7 +7,7 @@
     ],
     "key": {
         "c": {
-            "item": "minecraft:lightly_weathered_copper_block"
+            "item": "minecraft:copper_block"
         },
         "w": {
             "item": "minecraft:water_bucket",
@@ -17,7 +17,7 @@
         }
     },
     "result": {
-        "item": "minecraft:semi_weathered_copper_block",
+        "item": "minecraft:exposed_copper",
         "count": 8
     }
 }

@@ -2,7 +2,7 @@
 	"parent": "minecraft:recipes/root",
 	"rewards": {
 		"recipes": [
-			"survivaltweaks:slabs/copper/semi.json"
+			"survivaltweaks:slabs/mud_brick.json"
 		]
 	},
 	"criteria": {
@@ -10,14 +10,14 @@
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [
-					{"item":"minecraft:semi_weathered_cut_copper_slab"}
+					{"item":"minecraft:mud_brick_slab"}
 				]
 			}
 		},
 		"has_the_recipe": {
 			"trigger": "minecraft:recipe_unlocked",
 			"conditions": {
-				"recipe": "survivaltweaks:slabs/copper/semi.json"
+				"recipe": "survivaltweaks:slabs/mud_brick.json"
 			}
 		}
 	},

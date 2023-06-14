@@ -1,6 +1,7 @@
 {
     "type": "crafting_shaped",
-    "group":"chest",
+    "category": "misc",
+    "group": "chest",
     "pattern": [
         "###",
         "# #",
