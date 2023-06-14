@@ -2,8 +2,8 @@
     "type": "minecraft:crafting_shaped",
     "group": "purpur_block",
     "pattern": [
-        "X",
-        "X"
+        "XX",
+        "XX"
     ],
     "key": {
         "X": {
@@ -11,6 +11,7 @@
         }
     },
     "result": {
-        "item": "minecraft:purpur_block"
+        "item": "minecraft:purpur_block",
+        "count": 2
     }
 }
