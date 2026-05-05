@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "sDs",
+        "d0d",
+        "nen"
+    ],
+    "key": {
+        "0": "minecraft:enderman_spawn_egg",
+        "s": "minecraft:shulker_box",
+        "e": "minecraft:end_crystal",
+        "d": "minecraft:dragon_breath",
+        "n": "minecraft:nether_star",
+        "D": "minecraft:dragon_head"
+    },
+    "result": {
+        "id": "minecraft:shulker_spawn_egg",
+        "count": 1
+    }
+}

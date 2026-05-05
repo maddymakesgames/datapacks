@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "ndD",
+        "psp",
+        "Ddn"
+    ],
+    "key": {
+        "s": "minecraft:stick",
+        "n": "minecraft:netherite_scrap",
+        "d": "minecraft:dragon_breath",
+        "p": "minecraft:prismarine_shard",
+        "D": "minecraft:diamond"
+    },
+    "result": {
+        "id": "minecraft:debug_stick",
+        "count": 1
+    }
+}

@@ -1,0 +1,31 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"survivaltweaks:copper/exposed"
+		]
+	},
+	"criteria": {
+		"has_ingredients": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{"items":"minecraft:copper_block"},
+					{"items":"minecraft:water_bucket"}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "survivaltweaks:copper/exposed"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_ingredients",
+			"has_the_recipe"
+		]
+	]
+}

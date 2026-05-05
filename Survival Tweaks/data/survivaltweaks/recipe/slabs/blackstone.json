@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "blackstone",
+    "pattern": [
+        "s",
+        "s"
+    ],
+    "key": {
+        "s": "minecraft:blackstone_slab"
+    },
+    "result": {
+        "id": "minecraft:blackstone"
+    }
+}

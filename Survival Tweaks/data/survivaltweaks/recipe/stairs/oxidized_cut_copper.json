@@ -1,0 +1,11 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "group": "oxidized_cut_copper",
+    "ingredients": [
+        "minecraft:oxidized_cut_copper_stairs"
+    ],
+    "result": {
+        "id": "minecraft:oxidized_cut_copper",
+        "count": 9
+    }
+}

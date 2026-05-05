@@ -1,0 +1,11 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "group": "bamboo_mosaic",
+    "ingredients": [
+        "minecraft:bamboo_mosaic_stairs"
+    ],
+    "result": {
+        "id": "minecraft:bamboo_mosaic",
+        "count": 9
+    }
+}

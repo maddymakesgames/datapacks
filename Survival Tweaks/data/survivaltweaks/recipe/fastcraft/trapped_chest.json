@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "chest",
+    "pattern": [
+        "XXX",
+        "XOX",
+        "XXX"
+    ],
+    "key": {
+        "X": "#minecraft:planks",
+        "O": "minecraft:tripwire_hook"
+    },
+    "result": {
+        "id": "minecraft:trapped_chest"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "ccc",
+        "cwc",
+        "ccc"
+    ],
+    "key": {
+        "c": "minecraft:weathered_copper",
+        "w": "minecraft:water_bucket"
+    },
+    "result": {
+        "id": "minecraft:oxidized_copper",
+        "count": 8
+    }
+}

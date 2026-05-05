@@ -1,0 +1,32 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"expert_mode:eggs/slime_egg"
+		]
+	},
+	"criteria": {
+		"has_ingredients": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{"items":"minecraft:slime_block"},
+					{"items":"minecraft:nether_star"},
+					{"items":"minecraft:egg"}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "expert_mode:eggs/slime_egg"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_ingredients",
+			"has_the_recipe"
+		]
+	]
+}

@@ -1,0 +1,11 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "group": "tuff",
+    "ingredients": [
+        "minecraft:tuff_stairs"
+    ],
+    "result": {
+        "id": "minecraft:tuff",
+        "count": 9
+    }
+}

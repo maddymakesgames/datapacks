@@ -1,0 +1,11 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "group": "pale_oak_planks",
+    "ingredients": [
+        "minecraft:pale_oak_stairs"
+    ],
+    "result": {
+        "id": "minecraft:pale_oak_planks",
+        "count": 9
+    }
+}

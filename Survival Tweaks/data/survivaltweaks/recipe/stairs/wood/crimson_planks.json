@@ -1,0 +1,11 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "group": "crimson_planks",
+    "ingredients": [
+        "minecraft:crimson_stairs"
+    ],
+    "result": {
+        "id": "minecraft:crimson_planks",
+        "count": 9
+    }
+}

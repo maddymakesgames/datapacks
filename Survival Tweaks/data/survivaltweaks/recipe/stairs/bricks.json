@@ -1,0 +1,11 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "group": "bricks",
+    "ingredients": [
+        "minecraft:brick_stairs"
+    ],
+    "result": {
+        "id": "minecraft:bricks",
+        "count": 9
+    }
+}

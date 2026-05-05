@@ -1,0 +1,11 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "group": "dark_prismarine",
+    "ingredients": [
+        "minecraft:dark_prismarine_stairs"
+    ],
+    "result": {
+        "id": "minecraft:dark_prismarine",
+        "count": 9
+    }
+}

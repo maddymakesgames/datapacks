@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "BbB",
+        "BeB",
+        "BnB"
+    ],
+    "key": {
+        "e": "minecraft:egg",
+        "n": "minecraft:nether_star",
+        "b": "minecraft:bow",
+        "B": "minecraft:bone"
+    },
+    "result": {
+        "id": "minecraft:skeleton_spawn_egg",
+        "count": 1
+    }
+}

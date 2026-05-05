@@ -1,0 +1,33 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"expert_mode:eggs/wither_skeleton_egg"
+		]
+	},
+	"criteria": {
+		"has_ingredients": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{"items":"minecraft:wither_skeleton_skull"},
+					{"items":"minecraft:nether_star"},
+					{"items":"minecraft:skeleton_spawn_egg"},
+					{"items":"minecraft:wither_rose"}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "expert_mode:eggs/wither_skeleton_egg"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_ingredients",
+			"has_the_recipe"
+		]
+	]
+}

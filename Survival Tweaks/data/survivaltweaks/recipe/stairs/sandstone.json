@@ -1,0 +1,11 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "group": "sandstone",
+    "ingredients": [
+        "minecraft:sandstone_stairs"
+    ],
+    "result": {
+        "id": "minecraft:sandstone",
+        "count": 9
+    }
+}

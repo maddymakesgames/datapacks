@@ -1,0 +1,35 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"expert_mode:eggs/shulker_egg"
+		]
+	},
+	"criteria": {
+		"has_ingredients": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{"items":"minecraft:enderman_spawn_egg"},
+					{"items":"minecraft:shulker_box"},
+					{"items":"minecraft:end_crystal"},
+					{"items":"minecraft:dragon_breath"},
+					{"items":"minecraft:nether_star"},
+					{"items":"minecraft:dragon_head"}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "expert_mode:eggs/shulker_egg"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_ingredients",
+			"has_the_recipe"
+		]
+	]
+}

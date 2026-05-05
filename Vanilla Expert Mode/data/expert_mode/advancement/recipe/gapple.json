@@ -1,0 +1,33 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"expert_mode:gapple"
+		]
+	},
+	"criteria": {
+		"has_ingredients": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{"items":{"potion":"minecraft:regeneration"}},
+					{"items":"minecraft:nether_star"},
+					{"items":"minecraft:gold_block"},
+					{"items":"minecraft:apple"}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "expert_mode:gapple"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_ingredients",
+			"has_the_recipe"
+		]
+	]
+}

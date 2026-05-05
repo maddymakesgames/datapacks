@@ -1,0 +1,11 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "group": "polished_granite",
+    "ingredients": [
+        "minecraft:polished_granite_stairs"
+    ],
+    "result": {
+        "id": "minecraft:polished_granite",
+        "count": 9
+    }
+}

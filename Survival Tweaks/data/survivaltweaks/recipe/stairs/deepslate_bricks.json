@@ -1,0 +1,11 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "group": "deepslate_bricks",
+    "ingredients": [
+        "minecraft:deepslate_brick_stairs"
+    ],
+    "result": {
+        "id": "minecraft:deepslate_bricks",
+        "count": 9
+    }
+}

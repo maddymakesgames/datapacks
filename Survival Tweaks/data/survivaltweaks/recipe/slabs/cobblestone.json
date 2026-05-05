@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "cobblestone",
+    "pattern": [
+        "s",
+        "s"
+    ],
+    "key": {
+        "s": "minecraft:cobblestone_slab"
+    },
+    "result": {
+        "id": "minecraft:cobblestone"
+    }
+}

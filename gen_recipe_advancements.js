@@ -5,6 +5,11 @@ let create_advancement = (dir, write_dir, file_name, namespace, overwrite) => {
     console.log(`reading ${dir}/${file_name}`);
     let recipe_json = JSON.parse(fs.readFileSync(`${dir}/${file_name}`).toString());
     let items = [];
+    let recipe_name = file_name.split('.')[0];
+
+    if(!recipe_json.type.startsWith("minecraft")) {
+        recipe_json.type = `minecraft:${recipe_json.type}`;
+    }
 
     switch (recipe_json.type) {
         case "minecraft:crafting_shaped":
@@ -19,11 +24,17 @@ let create_advancement = (dir, write_dir, file_name, namespace, overwrite) => {
 
     console.log(items);
 
+    items = items.map((i) => {
+        return {
+            items: i,
+        }
+    });
+
     let json = `{
 	"parent": "minecraft:recipes/root",
 	"rewards": {
 		"recipes": [
-			"${namespace}:${file_name}"
+			"${namespace}:${recipe_name}"
 		]
 	},
 	"criteria": {
@@ -38,7 +49,7 @@ let create_advancement = (dir, write_dir, file_name, namespace, overwrite) => {
 		"has_the_recipe": {
 			"trigger": "minecraft:recipe_unlocked",
 			"conditions": {
-				"recipe": "${namespace}:${file_name}"
+				"recipe": "${namespace}:${recipe_name}"
 			}
 		}
 	},
@@ -76,10 +87,10 @@ let recursive_read = (dir_name) => {
     return items;
 }
 
-console.log(recursive_read('./Survival Tweaks/data/survivaltweaks/recipes'));
-for (file of recursive_read('./Survival Tweaks/data/survivaltweaks/recipes'))
-    create_advancement('./Survival Tweaks/data/survivaltweaks/recipes', './Survival Tweaks/data/survivaltweaks/advancements/recipes', file, 'survivaltweaks', process.argv[2] == "true");
+console.log(recursive_read('./Survival Tweaks/data/survivaltweaks/recipe'));
+for (file of recursive_read('./Survival Tweaks/data/survivaltweaks/recipe'))
+    create_advancement('./Survival Tweaks/data/survivaltweaks/recipe', './Survival Tweaks/data/survivaltweaks/advancement/recipe', file, 'survivaltweaks', process.argv[2] == "true");
 
-console.log(recursive_read('./Vanilla Expert Mode/data/expert_mode/recipes'));
-for (file of recursive_read('./Vanilla Expert Mode/data/expert_mode/recipes'))
-    create_advancement('./Vanilla Expert Mode/data/expert_mode/recipes', './Vanilla Expert Mode/data/expert_mode/advancements/recipes', file, 'expert_mode', process.argv[2] == "true");
+console.log(recursive_read('./Vanilla Expert Mode/data/expert_mode/recipe'));
+for (file of recursive_read('./Vanilla Expert Mode/data/expert_mode/recipe'))
+    create_advancement('./Vanilla Expert Mode/data/expert_mode/recipe', './Vanilla Expert Mode/data/expert_mode/advancement/recipe', file, 'expert_mode', process.argv[2] == "true");

@@ -1,0 +1,37 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"expert_mode:eggs/villager_egg"
+		]
+	},
+	"criteria": {
+		"has_ingredients": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{"items":"minecraft:emerald_block"},
+					{"items":"minecraft:nether_star"},
+					{"items":"minecraft:golden_apple"},
+					{"items":"minecraft:zombie_spawn_egg"},
+					{"items":{"potion":"minecraft:weakness"}},
+					{"items":"minecraft:golden_carrot"},
+					{"items":"minecraft:poisonous_potato"},
+					{"items":"minecraft:totem_of_undying"}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "expert_mode:eggs/villager_egg"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_ingredients",
+			"has_the_recipe"
+		]
+	]
+}

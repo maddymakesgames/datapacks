@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "ncd",
+        "php",
+        "dSs"
+    ],
+    "key": {
+        "p": "minecraft:prismarine_bricks",
+        "d": "minecraft:dark_prismarine",
+        "s": "minecraft:sea_lantern",
+        "S": "minecraft:squid_spawn_egg",
+        "c": "minecraft:cod_spawn_egg",
+        "h": "minecraft:heart_of_the_sea",
+        "n": "minecraft:nether_star"
+    },
+    "result": {
+        "id": "minecraft:guardian_spawn_egg",
+        "count": 1
+    }
+}

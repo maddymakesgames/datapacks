@@ -1,0 +1,11 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "group": "andesite",
+    "ingredients": [
+        "minecraft:andesite_stairs"
+    ],
+    "result": {
+        "id": "minecraft:andesite",
+        "count": 9
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "type": "crafting_shapeless",
+    "group": "chest",
+    "ingredients": [
+        "minecraft:chest",
+        "minecraft:tripwire_hook"
+    ],
+    "result": {
+        "id": "minecraft:trapped_chest"
+    }
+}

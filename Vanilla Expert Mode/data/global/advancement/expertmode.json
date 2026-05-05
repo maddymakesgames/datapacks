@@ -1,0 +1,22 @@
+{
+    "display": {
+        "title": "Vanilla Expert Mode",
+        "description": "An expert mode pack made for (pretty much) vanilla",
+        "icon": {
+            "id": "minecraft:player_head",
+            "components": {
+                "profile": {
+                    "id": [-611375164,137184746,-1491585909,32496063]
+                }
+            }
+        },
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "global:root",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

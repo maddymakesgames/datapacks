@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "NdN",
+        "ana",
+        "NdN"
+    ],
+    "key": {
+        "n": "minecraft:netherite_block",
+        "d": "minecraft:dragon_egg",
+        "N": "minecraft:nether_star",
+        "a": "minecraft:anvil"
+    },
+    "result": {
+        "id": "minecraft:spawner",
+        "count": 1
+    }
+}
