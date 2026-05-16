@@ -5,7 +5,6 @@
         "minecraft:cut_copper_stairs"
     ],
     "result": {
-        "id": "minecraft:cut_copper",
-        "count": 9
+        "id": "minecraft:cut_copper"
     }
 }

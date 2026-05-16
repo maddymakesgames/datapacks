@@ -5,7 +5,6 @@
         "minecraft:dark_prismarine_stairs"
     ],
     "result": {
-        "id": "minecraft:dark_prismarine",
-        "count": 9
+        "id": "minecraft:dark_prismarine"
     }
 }

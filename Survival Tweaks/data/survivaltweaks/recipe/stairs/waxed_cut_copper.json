@@ -5,7 +5,6 @@
         "minecraft:waxed_cut_copper_stairs"
     ],
     "result": {
-        "id": "minecraft:waxed_cut_copper",
-        "count": 9
+        "id": "minecraft:waxed_cut_copper"
     }
 }

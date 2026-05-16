@@ -5,7 +5,6 @@
         "minecraft:bamboo_stairs"
     ],
     "result": {
-        "id": "minecraft:bamboo_planks",
-        "count": 9
+        "id": "minecraft:bamboo_planks"
     }
 }

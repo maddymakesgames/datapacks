@@ -5,7 +5,6 @@
         "minecraft:acacia_stairs"
     ],
     "result": {
-        "id": "minecraft:acacia_planks",
-        "count": 9
+        "id": "minecraft:acacia_planks"
     }
 }

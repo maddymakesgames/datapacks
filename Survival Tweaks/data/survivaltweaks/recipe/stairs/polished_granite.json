@@ -5,7 +5,6 @@
         "minecraft:polished_granite_stairs"
     ],
     "result": {
-        "id": "minecraft:polished_granite",
-        "count": 9
+        "id": "minecraft:polished_granite"
     }
 }

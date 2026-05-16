@@ -5,7 +5,6 @@
         "minecraft:mud_brick_stairs"
     ],
     "result": {
-        "id": "minecraft:mud_bricks",
-        "count": 9
+        "id": "minecraft:mud_bricks"
     }
 }

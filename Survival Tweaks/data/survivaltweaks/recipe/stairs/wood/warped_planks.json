@@ -5,7 +5,6 @@
         "minecraft:warped_stairs"
     ],
     "result": {
-        "id": "minecraft:warped_planks",
-        "count": 9
+        "id": "minecraft:warped_planks"
     }
 }

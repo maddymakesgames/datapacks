@@ -5,7 +5,6 @@
         "minecraft:mossy_cobblestone_stairs"
     ],
     "result": {
-        "id": "minecraft:mossy_cobblestone",
-        "count": 9
+        "id": "minecraft:mossy_cobblestone"
     }
 }

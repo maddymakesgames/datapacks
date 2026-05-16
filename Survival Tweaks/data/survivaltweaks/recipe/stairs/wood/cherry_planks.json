@@ -5,7 +5,6 @@
         "minecraft:cherry_stairs"
     ],
     "result": {
-        "id": "minecraft:cherry_planks",
-        "count": 9
+        "id": "minecraft:cherry_planks"
     }
 }

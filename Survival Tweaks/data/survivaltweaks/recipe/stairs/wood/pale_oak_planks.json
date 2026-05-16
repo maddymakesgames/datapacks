@@ -5,7 +5,6 @@
         "minecraft:pale_oak_stairs"
     ],
     "result": {
-        "id": "minecraft:pale_oak_planks",
-        "count": 9
+        "id": "minecraft:pale_oak_planks"
     }
 }

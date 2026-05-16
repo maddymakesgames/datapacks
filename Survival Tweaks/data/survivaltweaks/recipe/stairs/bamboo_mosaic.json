@@ -5,7 +5,6 @@
         "minecraft:bamboo_mosaic_stairs"
     ],
     "result": {
-        "id": "minecraft:bamboo_mosaic",
-        "count": 9
+        "id": "minecraft:bamboo_mosaic"
     }
 }

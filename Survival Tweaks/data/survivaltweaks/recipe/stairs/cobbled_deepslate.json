@@ -5,7 +5,6 @@
         "minecraft:cobbled_deepslate_stairs"
     ],
     "result": {
-        "id": "minecraft:cobbled_deepslate",
-        "count": 9
+        "id": "minecraft:cobbled_deepslate"
     }
 }

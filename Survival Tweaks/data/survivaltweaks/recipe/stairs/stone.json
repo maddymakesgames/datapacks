@@ -5,7 +5,6 @@
         "minecraft:stone_stairs"
     ],
     "result": {
-        "id": "minecraft:stone",
-        "count": 9
+        "id": "minecraft:stone"
     }
 }

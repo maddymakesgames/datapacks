@@ -136,8 +136,7 @@ function stair_recipe(slab_data, group) {
             slab_data.stair_id
         ],
         result: {
-            id: slab_data.block_id,
-            count: 9
+            id: slab_data.block_id
         }
     };
 }
